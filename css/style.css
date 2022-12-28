@@ -1,0 +1,53 @@
+ul{
+    list-style-type: none;
+}
+h4{
+    color: rgb(41,128,191);
+}
+footer{
+    padding: 10px 0px;
+    color: white;
+    background-color: rgb(34,34,34);
+    justify-content: space-between;
+}
+.keyword li{
+    margin: 0 2px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.keyword{
+    justify-content: space-between;
+}
+.container{
+    display: block;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.list-comic-card p{
+    padding: 2px auto;
+    font-size: small;
+    color: white;
+    background-color: rgba(12, 12, 12, 0.8);
+}
+.side-list-card img{
+    width: 70px;
+    height: 70px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.text-left{
+    padding: 0;
+}
+.list-comic-card{
+    gap: 1rem;
+}
+.toolbar-nav{
+    display: flex;
+   justify-content: space-around;
+}
